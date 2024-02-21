@@ -1,0 +1,12 @@
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: C:/Users/andre/OneDrive/Documents/Penn State/AERSP 424/CodingHW1/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_06642 && [1/2] Building CXX object CMakeFiles\cmTC_06642.dir\CMakeCXXCompilerABI.cpp.obj
+FAILED: CMakeFiles/cmTC_06642.dir/CMakeCXXCompilerABI.cpp.obj 
+"D:\Program Files\Visual Studio 2022\Community\VC\Tools\MSVC\14.33.31629\bin\Hostx64\x64\cl.exe"  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_06642.dir\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\cmTC_06642.dir\ /FS -c "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeCXXCompilerABI.cpp"
+CreateProcess failed: The system cannot find the file specified.
+ninja: build stopped: subcommand failed.
+
+
+
+
