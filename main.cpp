@@ -8,6 +8,8 @@ Question 1
 #include <vector>
 #include <string>
 #include <iomanip>
+#include "Airplanes.h"
+
 
 
 
@@ -56,6 +58,8 @@ double isSafe(double planeWeight, double planeMoment, double CG, float fuelDensi
 
 
 int main() {
+	//Question 1:
+	
 	float emptyPlaneWeight; //floats are used since decimal weight is useful but we don't need 15 digits of precision for any of these
 	float emptyPlaneMoment;
 	int frontSeaters; //cant have fractions of people
@@ -108,7 +112,22 @@ int main() {
 	}
 	CGLocation = aircraftMoment / aircraftWeight;
 	fuel = fuel + isSafe(aircraftWeight, aircraftMoment, CGLocation, fuelGallonMass, fuelMoment); //saves new fuel value
+
 	return 0;
+
+	//Question 5:
+
+	Plane Plane1("SCE", "PHL");
+	Plane1.setVel(450);
+	for (int i = 0; i < 1000; i++) {
+		Plane1.operate(50);
+		std::cout << "Time: " + std::to_string(i * 50) + ", Postion: " + std::to_string(Plane1.getPos());
+	}
+
+	//Question 7:
+
+
+
 }
 
 
