@@ -302,6 +302,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="C:\Users\andre\OneDrive\Documents\Penn State\AERSP 424\CodingHW1\main.cpp" />
+    <ClInclude Include="C:\Users\andre\OneDrive\Documents\Penn State\AERSP 424\CodingHW1\Airplanes.h" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:\Users\andre\OneDrive\Documents\Penn State\AERSP 424\CodingHW1\build\ZERO_CHECK.vcxproj">

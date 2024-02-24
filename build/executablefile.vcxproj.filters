@@ -6,9 +6,17 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="C:\Users\andre\OneDrive\Documents\Penn State\AERSP 424\CodingHW1\Airplanes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
     <CustomBuild Include="C:\Users\andre\OneDrive\Documents\Penn State\AERSP 424\CodingHW1\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{6154E121-4EE1-34C0-A6D1-BD95D24D8D78}</UniqueIdentifier>
+    </Filter>
     <Filter Include="Source Files">
       <UniqueIdentifier>{8931103C-960A-3450-9DD6-071C039073D7}</UniqueIdentifier>
     </Filter>
