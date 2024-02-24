@@ -63,7 +63,7 @@ double isSafe(double planeWeight, double planeMoment, double CG, float fuelDensi
 
 int main() {
 	//Question 1:
-	/*
+	
 	float emptyPlaneWeight; //floats are used since decimal weight is useful but we don't need 15 digits of precision for any of these
 	float emptyPlaneMoment;
 	int frontSeaters; //cant have fractions of people
@@ -116,7 +116,7 @@ int main() {
 	}
 	CGLocation = aircraftMoment / aircraftWeight; //Finds the current CG Location
 	fuel = fuel + isSafe(aircraftWeight, aircraftMoment, CGLocation, fuelGallonMass, fuelMoment); //Finds the new fuel value by calling a function to calculate.
-	*/
+	
 
 	//Question 5:
 	std::cout << std::endl << "Question 5 starts here:" << std::endl << std::endl;
